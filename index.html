@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nike Company</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .nav {
+            margin: 5px;
+            text-align: center;
+        }
+        .nav a {
+            margin: 0 10px;
+            color: black;
+            text-decoration: none;
+        }
+        .product {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 20px;
+        }
+        .product img {
+            width: 300px;
+            height: 300px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Nike Company</h1>
+        <div class="nav">
+            <a href="#home">Home</a>
+            <a href="#product">Product</a>
+        </div>
+    </div>
+    <div class="product" id="product">
+        <img src="nike_product.jpg" alt="Nike Product">
+        <h2>Nike Product</h2>
+        <p>Description of the Nike product...</p>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; 2022 Nike Company</p>
+    </div>
+</body>
+</html>
